@@ -48,7 +48,7 @@ end
 def add_s(array)
   a = array[1]
   num = 0
-  array.map do |i|
+  array.map! do |i|
     i[num] = i + "s"
     num += 1
   end
