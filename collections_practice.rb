@@ -30,15 +30,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  arr = []
-  a = 0
   array.each do |i|
-    arr << i
-    a += 1
+    i[2] = "$"
   end
-  arra.length.each do |y|
-    
-  arr
+  array
 end
 
 def find_a(array)
