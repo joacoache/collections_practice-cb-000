@@ -46,12 +46,13 @@ def sum_array(array)
 end
 
 def add_s(array)
+  arr = []
   a = array[1]
   num = 0
-  array.collect do |i|
-    i[num] = i + "s"
+  array.each do |i|
+    arr << i + "s"
     num += 1
   end
-  array[1] = a
-  array
+  arr[1] = a
+  arr
 end
