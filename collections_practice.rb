@@ -34,8 +34,10 @@ def kesha_maker(array)
   a = 0
   array.each do |i|
     arr << i
-    i[a] = "#{i}$"
+    a += 1
   end
+  arra.length.each do |y|
+    
   arr
 end
 
